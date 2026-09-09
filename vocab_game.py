@@ -112,14 +112,15 @@ st.session_state.ans4_val = ans4
 
 
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
-ans3 = st.text_input
-"ข้อ 3: A `p _ _ ` THE STUDENT USE TO WRITE. ",
+ans3 = st.text_input(
+    "ข้อ 2: UES TO WRITE`P _ N`. 🐟",
     value=st.session_state.ans3_val,
 )
-ans4 = st.text_input
-"ข้อ 4: A MONKEY`B _ N _ N _` LIKE TO EAT. ",
+ans4 = st.text_input(
+    "ข้อ 2: MONKEY LIKE TO EAT `_ _ NANA`. 🐟",
     value=st.session_state.ans4_val,
 )
+
 
 # 4. ปุ่มส่งคำตอบ
 if "start" in st.session_state and not st.session_state.get("is_ended", False):
