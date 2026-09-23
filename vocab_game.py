@@ -113,11 +113,11 @@ st.session_state.ans4_val = ans4
 
 # ✏️ [พื้นที่สำหรับนักเรียน]: เพิ่มข้อ 3, 4 ตรงนี้
 ans3 = st.text_input(
-    "ข้อ 2: UES TO WRITE`p _ n`. 🐟",
+    "ข้อ 2: UES TO WRITE`p _ n`. 🖊️",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 2: MONKEY LIKE TO EAT `_ _ nana`. 🐟",
+    "ข้อ 2: MONKEY LIKE TO EAT `_ _ nana`. 🍌",
     value=st.session_state.ans4_val,
 )
 
